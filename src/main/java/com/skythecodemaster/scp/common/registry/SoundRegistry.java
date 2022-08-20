@@ -15,10 +15,10 @@ public class SoundRegistry {
   }
   
   public static final RegistryObject<SoundEvent> HEAVY_DOOR_OLD_OPEN_SOUND = register(
-    "heavy_door_old_open",new ResourceLocation("heavy_door_old_open")
+    "heavy_door_old_open",new ResourceLocation(SkySCPMod.MOD_ID,"heavy_door_old_open")
   );
   
   public static final RegistryObject<SoundEvent> HEAVY_DOOR_OLD_CLOSE_SOUND = register(
-    "heavy_door_old_close",new ResourceLocation("heavy_door_old_close")
+    "heavy_door_old_close",new ResourceLocation(SkySCPMod.MOD_ID,"heavy_door_old_close")
   );
 }

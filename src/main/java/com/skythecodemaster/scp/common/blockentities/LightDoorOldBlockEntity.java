@@ -1,12 +1,10 @@
 package com.skythecodemaster.scp.common.blockentities;
 
-import com.mojang.logging.LogUtils;
 import com.skythecodemaster.scp.common.blocks.LightDoorOld;
 import com.skythecodemaster.scp.common.registry.TileRegistry;
 import net.minecraft.core.BlockPos;
 import net.minecraft.world.level.block.entity.BlockEntity;
 import net.minecraft.world.level.block.state.BlockState;
-import org.slf4j.Logger;
 import software.bernie.geckolib3.core.IAnimatable;
 import software.bernie.geckolib3.core.PlayState;
 import software.bernie.geckolib3.core.builder.AnimationBuilder;
@@ -16,7 +14,6 @@ import software.bernie.geckolib3.core.manager.AnimationData;
 import software.bernie.geckolib3.core.manager.AnimationFactory;
 
 public class LightDoorOldBlockEntity extends BlockEntity implements IAnimatable {
-  private static final Logger LOGGER = LogUtils.getLogger(); // Collect a logger
   private final AnimationFactory factory = new AnimationFactory(this);
   
   private <E extends BlockEntity & IAnimatable> PlayState predicate(AnimationEvent<E> event) {

@@ -1,6 +1,5 @@
 package com.skythecodemaster.scp.common.datagen;
 
-import com.skythecodemaster.scp.common.registry.BlockRegistry;
 import com.skythecodemaster.scp.common.registry.ItemRegistry;
 import net.minecraft.data.DataGenerator;
 import net.minecraft.data.recipes.FinishedRecipe;

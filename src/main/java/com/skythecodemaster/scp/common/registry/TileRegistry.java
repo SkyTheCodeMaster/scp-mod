@@ -2,9 +2,7 @@ package com.skythecodemaster.scp.common.registry;
 
 import com.skythecodemaster.scp.SkySCPMod;
 import com.skythecodemaster.scp.common.blockentities.HeavyDoorOldBlockEntity;
-import com.skythecodemaster.scp.common.blockentities.LightDoorNewBlockEntity;
 import com.skythecodemaster.scp.common.blockentities.LightDoorOldBlockEntity;
-import com.skythecodemaster.scp.common.blocks.LightDoorNew;
 import net.minecraft.world.level.block.entity.BlockEntityType;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;

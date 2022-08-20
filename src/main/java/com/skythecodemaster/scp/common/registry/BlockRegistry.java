@@ -4,7 +4,6 @@ import com.skythecodemaster.scp.SkySCPMod;
 import com.skythecodemaster.scp.common.blocks.HeavyDoorOld;
 import com.skythecodemaster.scp.common.blocks.ScpeniumBlock;
 import com.skythecodemaster.scp.common.blocks.LightDoorOld;
-import com.skythecodemaster.scp.common.blocks.LightDoorNew;
 import net.minecraft.world.level.block.Block;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -15,7 +14,7 @@ public class BlockRegistry {
   
   public static final RegistryObject<ScpeniumBlock> SCPENIUM_BLOCK = BLOCKS.register("scpenium_block",
     ScpeniumBlock::new);
-  public static final RegistryObject<LightDoorOld> LIGHT_DOOR_OLD = BLOCKS.register("light_door",
+  public static final RegistryObject<LightDoorOld> LIGHT_DOOR_OLD = BLOCKS.register("light_door_old",
     LightDoorOld::new);
   //public static final RegistryObject<LightDoorNew> LIGHT_DOOR_NEW = BLOCKS.register("light_door_new",
   //  LightDoorNew::new);
