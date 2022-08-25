@@ -1,0 +1,17 @@
+{
+  "block.skysscp.scpenium_block": "Blok SCPenium",
+  "block.skysscp.light_door_old": "Lekkie Drzwi Zabezpieczające",
+  "block.skysscp.light_door_new": "Lekkie Drzwi Zabezpieczające (Zniszczone)",
+  "block.skysscp.heavy_door_old": "Ciężkie Drzwi Zabezpieczające (Stare)",
+  "block.skysscp.heavy_door_new": "Ciężkie Drzwi Zabezpieczające (Nowe)",
+  "block.skysscp.entrance_door": "Drzwi Strefy Wejściowej",
+  "block.skysscp.heavy_gate": "Ciężka Brama",
+
+  "block.skysscp.light": "Światło",
+
+  "itemGroup.skysscptab": "Sky's SCPs",
+  "item.skysscp.scpenium": "SCPenium",
+
+  "skysscp.subtitle.heavy_door_old_open": "Ciężkie Drzwi (Stare) otwiera się",
+  "skysscp.subtitle.heavy_door_old_close": "Ciężkie Drzwi (Stare) zamykają się"
+}
